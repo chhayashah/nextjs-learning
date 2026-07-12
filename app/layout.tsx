@@ -1,7 +1,14 @@
-export default function RootLayout({children}){
+import "./globals.css";
+import Navigation from "../component/Navigation";
+
+export default function RootLayout({ children }) {
   return(
     <html>
-      <body>{children}</body>
+      <body>
+        {/* <h1>Hello Layout</h1> */}
+        <Navigation/>
+        {children}
+      </body>
     </html>
   );
 }
