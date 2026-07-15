@@ -1,4 +1,6 @@
+import style from "./service.module.css";
+
 const Service = () => {
-    return <h1>hello service</h1>;
+    return <h1 className={style.common_heading}>hello service</h1>;
 }
 export default Service;
